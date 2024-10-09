@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+    height:40px;
+    padding: 50px;
+}
+.alll{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;    
+}
+li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.logo-img{
+    height:30px;
+}
+.top-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.section-one{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.slog{
+    padding: 20px;
+    font-size: 19px;
+}
+.left-side{
+    padding: 30px;
+    padding-top: 90px;
+}
+.left-side>h1{
+    font-size: 56px;
+    width: 320px;
+}
+input{
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+}
+.nav-button{
+    padding: 8px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    top: -8px;
+}
+.nav-button:hover{
+    background-color: rgb(222, 222, 222);
+}
+.nav-button>li>a{
+    color: black;
+}
+.see-prices{
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.see-prices>a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.section-two{ 
+    padding-top: 90px;
+    padding-bottom: 80px;
+
+}
+.section-two>h2{
+    font-size:30px;
+    padding-left: 20px;
+}
+.box-container{
+    display: flex;
+    gap:30px;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
+    
+}
+.box{
+    background-color: rgb(209, 206, 206);
+    padding:20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 500px;
+    font-size: 20px;
+}
+.ride-left{
+    width: fit-content;
+
+}
+.img-right>img{
+    width: 90px;
+}
+.details-button{
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+.details-button:hover{
+    background-color: rgb(152, 152, 152);
+    cursor: pointer;
+}
+.arrow-container{
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    
+}
+.arrow{
+    background-color: white;
+    color: black;
+    border-radius: 5000000px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 40px;
+    border: 3px solid black ;
+    padding: 10px; 
+}
+.section-three{
+    display: flex;
+    padding: 75px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.right-text{
+    padding: 40px;
+    width: fit-content;
+}
+.right-text>h2{
+    font-size: 50px;
+}
+.right-text>p{
+    font-size: 25px;
+}
+.gas{
+    display: flex;
+    gap: 20px;
+    align-items: center; 
+    background-color: ;
+    padding-top: 30px;   
+}
+.get-started{
+   background-color: black;
+   width: fit-content;
+   color: white;
+   padding: 10px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.get-started:hover{
+    background-color: rgb(64, 64, 64);
+}
+.all{
+    font-size:22px;
+}
+.button-text{
+    font-size: 25px;
+}
+.all>a{
+    text-decoration: none;
+    color: black;
+}
+.section-four{
+    display: flex;
+    padding: 75px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.sec4-text{
+    padding-top: 150px;
+
+}
+.sec4-text>h1{
+    font-size: 43px;
+    width: 320px;
+}
+.sec4-text>p{
+    font-size: 20px;
+}
+.section-4{
+    background-color: rgb(234, 233, 233);
+}
+.download-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 55px;
+    gap: 20px;
+}
+.download-box{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px;
+    gap: 20px;
+}
+.download-text{
+    align-self: center;
+}
+.download-text>h3{
+    font-size: 25px;
+}
+.download-text>p{
+    font-size: 19px;
+}
+.qrcode{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+footer{
+    background-color: black;
+}
+.Lists{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 150px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+.li-title{
+    text-decoration: 4px solid;
+    font-size: 20px;
+}
+.footer-list{
+    text-decoration: none;
+    text-decoration: none;
+    list-style: none; 
+    font-size: 16px;
+}
+.list1{
+    align-content: start;
+
+}
+.footer-list>li{
+    padding-top: 15px;\
+}
+.footer-list>li>a:hover{
+    cursor: pointer;
+    color: grey;
+}
